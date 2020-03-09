@@ -1,0 +1,29 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": "A simple goal tracking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickbeck/tracker.git"
+  },
+  "keywords": [
+    "goals",
+    "habits",
+    "agenda",
+    "tracking"
+  ],
+  "author": "Mike Beckett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickbeck/tracker/issues"
+  },
+  "homepage": "https://github.com/mickbeck/tracker#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
